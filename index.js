@@ -77,3 +77,26 @@ function  calculateWatchTime( times ) {
         second: seconds
     };
 }
+
+// 
+
+const student = {
+    sName: 'Sakib Khan',
+    id: 121,
+    address: 'Movie Cinema',
+    isSingle: true,
+    friends: ['Apu', 'Raaz', 'Salman', 'Aamir'],
+    car:{
+        brand: 'Toyota',
+        price: 60000,
+        madea: 2025,
+        model: "GR Yaris"
+    },
+    study:function () {
+        return "He is doing web development course"
+    }
+}
+
+console.log(student.friends)
+console.log(student.car)
+console.log(student.study())
